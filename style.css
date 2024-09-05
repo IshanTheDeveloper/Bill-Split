@@ -25,6 +25,7 @@ body {
   width: 90vw;
   text-align: center;
   border-radius: 2rem;
+  font-family: "Orbitron", sans-serif;
 }
 
 #images {
@@ -189,15 +190,21 @@ input {
   }
 }
 @media (max-width: 400px) {
+  .area1 {
+    height: 80vh;
+  }
+  .area2 {
+    height: 80vh;
+  }
   #main-heading {
     font-size: 2rem;
   }
   #img1 {
-    height: 2.3vh;
+    height: 4vh;
     width: 10vw;
   }
   #img2 {
-    height: 2.5vh;
+    height: 4.3vh;
     width: 8vw;
     margin-right: 10vw;
   }
