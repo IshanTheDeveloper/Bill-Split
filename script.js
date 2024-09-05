@@ -13,25 +13,25 @@ const individualAmount = document.querySelector("#individual");
 const submit = document.querySelector("#generateBill");
 const reset = document.querySelector("#resetbutton");
 const tip1Operation = () => {
-  inputTwo.value = tip1.innerText;
+  inputTwo.value = "5";
 };
 const tip2Operation = () => {
-  inputTwo.value = tip2.innerText;
+  inputTwo.value = "10";
 };
 const tip3Operation = () => {
-  inputTwo.value = tip3.innerText;
+  inputTwo.value = "15";
 };
 
 const tip4Operation = () => {
-  inputTwo.value = tip4.innerText;
+  inputTwo.value = "25";
 };
 
 const tip5Operation = () => {
-  inputTwo.value = tip5.innerText;
+  inputTwo.value = "50";
 };
 
 const tip6Operation = () => {
-  inputTwo.value = tip6.innerText;
+  inputTwo.value = "75";
 };
 const generateBill = () => {
   if (inputTwo.value == "5%") {

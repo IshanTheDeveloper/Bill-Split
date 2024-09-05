@@ -191,7 +191,7 @@ input {
 }
 @media (max-width: 400px) {
   .area1 {
-    height: 70vh;
+    height: 60vh;
   }
   .area2 {
     height: 80vh;
